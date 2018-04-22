@@ -10,6 +10,13 @@ namespace AbstractDataStructures
     {
         static void Main(string[] args)
         {
+            Stack stack = new Stack(3);
+            //stack.Push(10);
+            //stack.Push(20);
+            //stack.Push(30);
+            //stack.Push(40);
+            stack.Pop();
+            stack.Display();
         }
     }
 }
