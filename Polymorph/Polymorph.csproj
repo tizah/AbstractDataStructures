@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{534A9314-B55C-4088-99A2-EE4674F093D4}</ProjectGuid>
+    <ProjectGuid>{DD21A023-5342-460F-90B2-19E5E05B05C2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractDataStructures</RootNamespace>
-    <AssemblyName>AbstractDataStructures</AssemblyName>
+    <RootNamespace>Polymorph</RootNamespace>
+    <AssemblyName>Polymorph</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LinkedList.cs" />
-    <Compile Include="List.cs" />
+    <Compile Include="Circle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Stack.cs" />
+    <Compile Include="Rectangle.cs" />
+    <Compile Include="Shape.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

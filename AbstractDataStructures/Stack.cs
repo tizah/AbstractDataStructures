@@ -45,7 +45,7 @@ namespace AbstractDataStructures
             if (isEmpty())
             {
                 Console.WriteLine("Stack is empty!");
-                return "No elements";
+                   return "No elements";
             }
             else
             {
